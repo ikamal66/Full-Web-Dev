@@ -1,0 +1,6 @@
+post request --> ke andar hum bahut saara data bhej sakte hai 
+get request --> ke andar hum server se data le sakte hai
+
+Form in HTML:
+type: Text Input, Password Input, Email Input, Number Input, Radio Button, Checkbox, Select Box, Text Area, Button, File Input
+

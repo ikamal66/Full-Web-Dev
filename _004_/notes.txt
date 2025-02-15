@@ -1,0 +1,22 @@
+Attributes:
+lang="en" here,lang is an attribute
+
+-- <a href="https://example.com">Click here</a>  // It is called anchor tag
+Here, href is an attribute that tells the browser where the link should go.
+
+We can use of inLine css in HTML: 
+<p style="background-color: salmon;"></p>
+Here, style is an style attribute
+
+<link rel="stylesheet" href="style.css">
+    here, rel and href is an attribute
+
+anchor tag: 
+The <a> tag (anchor tag) in HTML is used to create hyperlinks. It allows users to navigate to another webpage, a section of the same page, an email, or even a downloadable file
+-> eske andar hum link daalte hai open karne ke liye
+
+ <a target="_blank" href="https://www.google.com">Open Google</a>
+ here, we use of target="_blank" because we want to open google.com site in the new tab
+
+If over link add in horizontal way, we want in verital or next line than we use of paragraph tag, it is a dirty approach
+we don't use of paragraph tag for the making the list

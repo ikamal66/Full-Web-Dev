@@ -1,0 +1,53 @@
+// Image tag:
+<img height="230" src="train image.jpg"  alt="train image" >
+
+height="230" here, width automatically adjust according to the image ratio
+we have to use of only one attribute such as height or width 
+we don't write px in the end because they are already in px
+
+// Table Tag:
+we first of all use of table tag <table> </table>
+<td> --> it is called table data
+<th> --> it is called table heading
+<tr> --> it is called table row
+
+<td colspan="2"> --> uses to give the gap b/w the columns
+
+//Before using of colspan
+Name	Age	Id
+Kamal	19	3489
+Hemant	21	3434
+Aman	19	3454
+
+//After using of colspan
+Name	Age	Id
+Kamal	19	3489
+Hemant	21	3434
+Aman	    19	3454
+
+there is a caption tag in the HTML
+        <caption>Student Details</caption>
+
+we can use some tag in Table:
+<thead>  --> header of the table
+<tbody>  --> body of the table            
+<tfoot>  --> footer of the table
+
+
+// Lists in HTML: <li>
+
+There are three types of list in HTML:
+<ul> --> unordered list (bullet points) we can customize unordered list
+    there are three types of customization:
+    disc (by default)
+    circle
+    square
+<ol> --> ordered list (1,2...)
+    Uppercase Roman Numerals: Use type="I"
+    Lowercase Roman Numerals: Use type="i"
+    Arabic Numerals: Use type="1" (This is the default if the type attribute is not specified)
+    Lowercase Alphabetical Letters: Use type="a"
+    Uppercase Alphabetical Letters: Use type="A"
+<dl> --> definition list 
+    <dt> --> definition term
+    <dd> --> definition data

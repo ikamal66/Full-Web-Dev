@@ -1,0 +1,8 @@
+SEO(search engine optimization)
+CLS(cumulative layout shift)
+LCS(largest contentful paint)
+FID(first input delay)
+
+meta:desc ---> description for the website help in ranking the site
+
+meta keywords are now deprecated now
