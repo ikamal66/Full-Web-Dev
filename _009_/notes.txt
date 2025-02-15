@@ -1,0 +1,17 @@
+. means class 
+
+# means id 
+
+id and class are the attributes of the element
+
+
+id:
+Unique: Each id is used only once per page.
+Higher specificity: Overrides class styles.
+Syntax: Defined with a # in CSS (e.g., #header).
+
+
+class:
+Reusable: Multiple elements can share the same class.
+Lower specificity: Can be overridden by id styles.
+Syntax: Defined with a . in CSS (e.g., .box).
