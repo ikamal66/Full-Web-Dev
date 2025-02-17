@@ -1,0 +1,12 @@
+ CSS stands for Cascading Style Sheets. 
+ 
+ div{
+            color: salmon;
+        }
+
+Here, div is the selector and color is the property and salmon is the value
+ color: salmon; this called declaration
+
+ selector {
+    property: value;
+}
