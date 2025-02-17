@@ -1,0 +1,17 @@
+There are three types to add CSS in HTML:
+1.inline --> Direct use
+<div style="color:rgb(0, 255, 183); background-color: salmon;" >
+    Do good and forget about it
+</div>
+
+2.Internal --> Use in HTML file just one line above the head closing tag
+<style>
+    p{
+        color: blue;
+        background-color: cadetblue;
+    }
+</style>
+
+3.External
+You create an external CSS file with a .css extension, write your CSS rules in it, and then link it to your HTML file using the <link> tag in the <head> section.
+
