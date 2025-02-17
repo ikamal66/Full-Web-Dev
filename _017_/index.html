@@ -1,0 +1,92 @@
+<!-- CSS Selectors -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Element Selector */
+        div {
+            /* background-color: red; */
+        }
+
+        /* Class Selector */
+        .red {
+            background-color: red;
+        }
+
+        /* ID selector */
+        #green {
+            color: brown;
+        }
+
+        /* Child Selector --> jitne bhi direct paragraph hai div ke andar,uske upar ye wali property lagegi*/
+        div>p {
+            color: blue;
+            background-color: salmon;
+        }
+
+        /* Descendat Selector --> div ke andar paragraph direct ho ya naa ho,property apply kardo */
+        div p {
+            color: blue;
+            background-color: salmon;
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector */
+        a:visited {
+            /*when we visited the link,this color will shown */
+            color: rgb(246, 3, 141);
+        }
+
+        a:link {
+            /*when we don't visited the link,this color will shown */
+            color: seagreen;
+        }
+
+        a:active {
+            /*when we click on the link the bg will red */
+            background-color: red;
+        }
+
+        a:hover {
+            background-color: rgb(118, 137, 157);
+        }
+
+        p:first-child {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>I am first p</p>
+        <p>I am 2nd p</p>
+    </main>
+    <div class="red">
+        I am first div
+        <p>I am paragraph inside the div</p>
+    </div>
+    <div id="green">
+        I am a second div
+        <article>
+            <p>
+                I am also a paragraph
+            </p>
+        </article>
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.facebook.com">Go to Facebook</a>
+
+
+</body>
+
+</html>
