@@ -1,0 +1,12 @@
+CSS Box Model:
+box-sizing: border-box; -->
+It is border + padding size, it will not include the margin
+
+Margin collapse:
+When two elements are stacked vertically and both have margins, the margins between them can "collapse" into a single margin that's equal to the greater of the two individual margins.
+Instead of adding their margins together, only the larger margin is applied.
+Here's a simple example:
+Element A has a bottom margin of 20px.
+Element B has a top margin of 10px.
+If these elements are directly adjacent to each other, the resulting margin between them will be 20px, not 30px. This phenomenon is known as "margin collapse."
+
