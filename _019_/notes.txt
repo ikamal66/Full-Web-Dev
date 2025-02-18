@@ -1,0 +1,63 @@
+font-family: Arial, Helvetica, sans-serif
+
+font-family --> change the font
+Arial -- it is the main font, if it is not available then other font will applicable
+Helvetica, sans-serif -- these are fall back fonts
+
+font-style: italic;
+font-weight: 700; --> Bold the text
+text-decoration: underline; --> used for underline
+text-decoration-color: red; -- change the color of the underline, always use underline above this
+text-decoration-style: dotted;
+font-size: 54px; 
+
+Paragraphs (<p>)
+Font Size: The default font size is usually around 16px.
+Font Weight: Normal (400).
+
+<h1>:
+Font Size: Around 32px.
+Font Weight: Bold (700).
+
+<h2>:
+Font Size: Around 24px.
+Font Weight: Bold (700).
+
+<h3>:
+Font Size: Around 20px.
+Font Weight: Bold (700).
+
+<h4>:
+Font Size: Around 16px (similar to the default paragraph size).
+Font Weight: Bold (700).
+
+<h5>:
+Font Size: Around 13px.
+Font Weight: Bold (700).
+
+<h6>:
+Font Size: Around 10px.
+Font Weight: Bold (700).
+
+
+
+
+line-height: 1;
+    Line height is the space between lines of text.
+    It affects readability by controlling the vertical spacing in paragraphs.
+
+letter-spacing: 4px; -- space b/w the words
+text-transform: capitalize; --  It can convert text to uppercase, lowercase, or capitalize the first letter of each word.
+
+text-indent: 45px;  -- text-indent is a CSS property that sets the amount of space to the left of the first line of a paragraph.
+ text-align: center;
+
+ text-overflow:ellipsis;
+overflow:hidden; --- made the extra words in dotted lines (in my opinion it is best)
+
+text-overflow:clip;
+overflow:hidden;  -- it just not showing anything
+
+color:rgb(100, 100, 100); -- these values are varies till 255
+color: rgba(red, green, blue, alpha); -- here alpha values varies from 0 to 1, it is called opacity
+color: hsl(hue, saturation, lightness);
