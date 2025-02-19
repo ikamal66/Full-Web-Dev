@@ -1,0 +1,26 @@
+hmare pass bahut saari unit hoti hai CSS ke andar-
+
+margin: auto;
+The margin: auto property in CSS centers a block element horizontally within its parent container. 
+It automatically calculates and evenly distributes the remaining space around the element.
+Work only on the block element not on the inline element.
+
+ margin: 23px auto; -- here, 23px is the bottom-up space and auto is the left-right space.
+
+ width: 80vw; -- vw(viewport's width)  -- use when we want to give width
+ height: 20vh;-- vh(viewport's height)  -- use when we want to give height
+
+ font-size: 20px;
+ font-size: 2em; --we provide here 20px by using of 2em it will double the font size i.e 40px
+ if you set an element's font-size to 2em, it will be twice the size of its parent element's font size.
+
+ font-size: 2rem;
+ If the root element's font size is 16px, then 2rem will make the font size 32px, effectively doubling it
+
+ width: 100vmin; -- 100 vmin means 100vh in my laptop
+ width: 100vh;  -- it is also same as above
+
+ vmin means -- minimum kya hai apne device ke andar, laptop ke andar minimum height hoti hai mobile ke andar minimum width hoti hai
+ so vmin in laptop is height and vmin in mobile is width
+
+ width: 50%; -- it will adjust the width according to the parent element
