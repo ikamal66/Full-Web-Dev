@@ -1,0 +1,11 @@
+To calculate specificity, assign a value to each part of the selector:
+
+Universal Selector: 0
+Element selectors and pseudo-elements: 1
+Class selectors, attribute selectors, and pseudo-classes: 10
+ID selectors: 100
+Inline styles: 1000
+
+Importance:
+The !important flag in CSS is used to give a particular style rule the highest level of importance, overriding any other competing styles
+!important at the end of a CSS value gets a specificity score of 10,000 points. 
