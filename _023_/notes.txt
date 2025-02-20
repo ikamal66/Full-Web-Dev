@@ -1,0 +1,14 @@
+display: inline; -- convert block element to inline element
+if we using of display: inline --> then the margin and padding will not be changed from the top and width also not work
+
+so, we have to use of -
+display: inline-block;
+
+ display: none; --  don't show anything
+
+.box1{
+    /* display: none; */
+    visibility: hidden;
+}
+by using of display: none --> it will remove the object as well as the space
+when we use of visibility: hidden --> it will remove only the object not the space
