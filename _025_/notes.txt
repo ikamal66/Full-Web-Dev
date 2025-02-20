@@ -1,0 +1,16 @@
+list-style: devanagari; -- used to change marker, such as ol have 1,2,3 by using of list-style it will change the 1,2,3 to devanagari language
+By using of list-style it will not include the marker when we use of BG color
+
+list-style-position: inside; -- it will include the marker when we use of BG color
+    -using of this the marker will move inside the li(list)
+
+list-style-type: "❤️";  -- we can use of emojis in the ol/ul
+list-style-image: url();  -- we can use of image in the ol/ul
+
+IMP:
+ we do -
+ display: flex; -- on the ul/ol 
+ margin: 123px; -- on the li
+
+ 
+
