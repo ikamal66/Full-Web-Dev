@@ -1,0 +1,12 @@
+overflow: scroll; -- used to display an scroll bar
+overflow: auto; -- when automatically enabled the scroll bar 
+overflow: clip; -- box ke andar fit kar dega text ko, no scroll bar-- it depends on the box size
+
+white-space: nowrap; -- horizontal scroll only 
+
+text-overflow: ellipsis; -- used for showing ... lines in the end of the lines
+
+overflow-x: hidden;
+overflow-y: hidden;
+overflow: hidden auto;  -- overflow hidden kardo X me or auto kardo Y me
+overflow: auto hidden;  -- overflow hidden auto kardo X me or hidden kardo Y me
